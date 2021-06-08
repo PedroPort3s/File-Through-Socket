@@ -24,7 +24,7 @@ public class SocketServer implements IRespostaServer
 			
 			while(true) 
 			{
-				System.out.println("Aguardando novas conexões...");
+				System.out.println(String.format(("Aguardando novas conexões na porta: %s"),socket.getLocalPort()));
 				Socket cliente  = socket.accept();
 				
 				System.out.println(cliente.getInetAddress() + " conectou!\nAguardando envio de arquivos... ");

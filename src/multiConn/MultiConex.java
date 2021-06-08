@@ -25,7 +25,7 @@ public class MultiConex implements Runnable {
 	    {
 	        int count = 0;
 	        
-	        String diretorioArquivos = String.format("%s//Downloads",System.getProperty("user.home"));
+	        String diretorioArquivos = String.format("%s//Downloads//socket",System.getProperty("user.home"));
 
 	        try 
 	        {  
